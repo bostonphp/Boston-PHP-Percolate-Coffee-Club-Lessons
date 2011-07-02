@@ -30,9 +30,9 @@
         <text>Workout%20Equipment</text>
       </controlProperties>
     </control>
-    <control controlID="7" controlTypeID="com.balsamiq.mockups::DataGrid" x="465" y="557" w="532" h="115" measuredW="257" measuredH="116" zOrder="6" locked="false" isInGroup="-1">
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::DataGrid" x="465" y="557" w="532" h="115" measuredW="250" measuredH="116" zOrder="6" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>Question%2C%20Answer%0ADid%20you%20get%20her%20phone%20number%2C%20Yes%0ADid%20you%20get%20her%20phone%20number%2C%20Yes%0ADid%20you%20get%20her%20phone%20number%2C%20Yes</text>
+        <text>Question%2C%20Answer%0ADid%20you%20use%20the%20stairmaster%3F%2C%20Yes%0ADid%20you%20use%20the%20stairmaster%3F%2C%20Yes%0ADid%20you%20use%20the%20stairmaster%3F%2C%20Yes</text>
       </controlProperties>
     </control>
   </controls>
