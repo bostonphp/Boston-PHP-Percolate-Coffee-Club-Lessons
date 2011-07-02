@@ -1,9 +1,9 @@
 # Boston PHP Percolate Coffee Club
 The Percolate Coffee Club is a small group of Boston PHP members that come together at a local coffee shop to learn to code in PHP. Our focus is on learning, and to teach you how to develop web applications and sites using open source technology like PHP.
 
-Join Boston PHP: http://www.bostonphp.org
-Learn PHP: http://percolate.bostonphp.org
-Coffee Club: RSVP Here: http://www.bostonphp.org
+- Join Boston PHP: http://www.bostonphp.org
+- Learn PHP: http://percolate.bostonphp.org
+- Coffee Club: RSVP Here: http://www.bostonphp.org
 
 ## Lesson 3, July 2, 2011 
 In this lesson, we looked at how to design and create a web form and store the results in a database.
