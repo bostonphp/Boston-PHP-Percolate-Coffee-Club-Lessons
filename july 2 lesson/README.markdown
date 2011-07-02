@@ -16,7 +16,7 @@ In this lesson, we looked at how to design and create a web form and store the r
 - How to collect the data collected from the form and store it in MySQL
 - How to redirect the page after the form has been submitted
 
-## Here is what we did step by step
+## Here is what we did step by step:
 1. Created a PHP page with just plain HTML, Form, and Form Inputs
 2. Created the Database to hold our data
 3. Added three tables to hold specific information
@@ -26,7 +26,7 @@ In this lesson, we looked at how to design and create a web form and store the r
 7. Refactored the PHP page to redirect the page when user submits the data
 8. Testing
 
-This took us roughly 30 minutes as a team, with me explaining in detail each step.
+> This took us roughly 30 minutes as a team, with me explaining in detail each step.
 
 ## Get the code working on your own laptop
 1. Make sure you have PHP and MySQL installed and running on your laptop or server
@@ -47,5 +47,10 @@ Your home assignment is to create another PHP page that shows the data collected
 
 Here is a mockup of what it shoudl look like:
 ![Workout Admin Form](https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/raw/master/july%202%20lesson/homework.png "Mockup")
+
+## Join us at the next coffee club!
+We will post the next Percolate Coffee Club on our website. Make sure you RSVP, there is only room for 10 per week.
+
+http://www.bostonphp.org
 
 Enjoy

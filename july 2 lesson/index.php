@@ -1,4 +1,4 @@
-<?php
+<?php // Save this page as index.php
 
 // Workout form, created by Michael Bourque and the PHP Percolate Coffee Club
 // www.bostonphp.org

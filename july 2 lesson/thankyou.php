@@ -1,3 +1,4 @@
+<!-- Save this page as thankyou.php -->
 <!DOCTYPE html>
 <html>
 <head>
