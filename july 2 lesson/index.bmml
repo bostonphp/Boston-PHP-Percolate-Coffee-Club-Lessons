@@ -1,6 +1,6 @@
-<mockup version="1.0" skin="sketch" measuredW="1062" measuredH="722" mockupW="673" mockupH="668">
+<mockup version="1.0" skin="sketch" measuredW="1062" measuredH="541" mockupW="673" mockupH="487">
   <controls>
-    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="389" y="54" w="673" h="668" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="389" y="54" w="673" h="487" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
         <text>Workout%20Evaluation%20Form%0Ahttp%3A//localhost%3A8888/lesson3/</text>
       </controlProperties>
