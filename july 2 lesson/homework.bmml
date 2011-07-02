@@ -1,0 +1,39 @@
+<mockup version="1.0" skin="sketch" measuredW="1062" measuredH="722" mockupW="673" mockupH="668">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="389" y="54" w="673" h="668" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="415" y="144" w="-1" h="-1" measuredW="320" measuredH="56" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Workout%20answers</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::SubTitle" x="423" y="215" w="-1" h="-1" measuredW="265" measuredH="37" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>How%20was%20your%20workout%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::DataGrid" x="465" y="252" w="532" h="115" measuredW="181" measuredH="116" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%2C%20Answer%0ADid%20you%20get%20hurt%3F%2C%20Yes%0ADid%20you%20get%20hurt%3F%2C%20No%0ADid%20you%20get%20hurt%3F%2C%20Yes</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::DataGrid" x="465" y="376" w="532" h="120" measuredW="260" measuredH="116" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%2C%20Answer%0ADid%20you%20know%20we%20are%20not%20liable%2C%20Yes%0ADid%20you%20know%20we%20are%20not%20liable%2C%20No%0ADid%20you%20know%20we%20are%20not%20liable%2C%20Yes</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::SubTitle" x="423" y="511" w="-1" h="-1" measuredW="290" measuredH="37" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Did%20you%20see%20any%20hot%20girls%3F</text>
+      </controlProperties>
+    </control>
+    <control controlID="7" controlTypeID="com.balsamiq.mockups::DataGrid" x="465" y="557" w="532" h="115" measuredW="257" measuredH="116" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Question%2C%20Answer%0ADid%20you%20get%20her%20phone%20number%2C%20Yes%0ADid%20you%20get%20her%20phone%20number%2C%20Yes%0ADid%20you%20get%20her%20phone%20number%2C%20Yes</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>
