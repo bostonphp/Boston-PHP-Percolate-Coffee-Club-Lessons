@@ -2,7 +2,7 @@
   <controls>
     <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="389" y="54" w="673" h="668" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
       <controlProperties>
-        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <text>Workout%20answers%0Ahttp%3A//localhost%3A8888/lesson3/admin</text>
       </controlProperties>
     </control>
     <control controlID="1" controlTypeID="com.balsamiq.mockups::Title" x="415" y="144" w="-1" h="-1" measuredW="320" measuredH="56" zOrder="1" locked="false" isInGroup="-1">
