@@ -1,0 +1,75 @@
+###BOTTLING### customprefix.sh
+###BOTTLING### Gathering debug Info...
+
+Versions
+OS...........................: darwin10.0
+Wine.........................: 1.1.44
+WineBottler..................: 1.1.44
+
+Environment
+PWD..........................: '/Volumes/WineBottler Combo/Wine.app/Contents/Resources/bin'
+PATH.........................: /usr/gnu/bin:/usr/local/bin:/bin:/usr/bin:.
+WINEPATH.....................: /Volumes/WineBottler Combo/Wine.app/Contents/Resources/bin
+LD_LIBRARY_PATH..............: /Volumes/WineBottler Combo/Wine.app/Contents/Resources/lib:/usr/X11R6/lib
+DYLD_FALLBACK_LIBRARY_PATH...: /usr/lib:/Volumes/WineBottler Combo/Wine.app/Contents/Resources/lib:/usr/X11R6/lib
+FONTCONFIG_FILE..............: /Volumes/WineBottler Combo/Wine.app/Contents/Resources/etc/fonts/fonts.conf
+DIPSPLAY.....................: /tmp/launch-tn2gGB/org.x:0
+SILENT.......................: 
+http_proxy...................: 
+https_proxy..................: 
+ftp_proxy....................: 
+socks5_proxy.................: 
+
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro8,2
+      Processor Name: Intel Core i7
+      Processor Speed: 2 GHz
+      Number of Processors: 1
+      Total Number of Cores: 4
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 6 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP81.0047.B0E
+      SMC Version (system): 1.69f1
+      Serial Number (system): C02FQ2LKDF8Y
+      Hardware UUID: 16878AA9-C36D-57F7-BC87-0B124C13F27E
+      Sudden Motion Sensor:
+          State: Enabled
+
+###BOTTLING### Turn on Coreaudio...
+wine: created the configuration directory '/Users/Michael/Wine Files'
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\acledit.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\aclui.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\actxprxy.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\advapi32.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\amstream.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\cmd.exe" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\winscard.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\winspool.drv" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\wintrust.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\wldap32.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\wuapi.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\wuaueng.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xcopy.exe" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xinput1_2.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xinput1_3.dll" (error=80)
+err:setupapi:create_dest_file failed to create L"C:\\windows\\system32\\xmllite.dll" (error=80)
+fixme:system:SetProcessDPIAware stub!
+fixme:dwmapi:DwmIsCompositionEnabled 0x33c934
+fixme:file:MoveFileWithProgressW MOVEFILE_WRITE_THROUGH unimplemented
+fixme:advapi:SetNamedSecurityInfoW L"C:\\windows\\system32\\gecko\\1.0.0\\wine_gecko\\components\\xpti.dat" 1 536870916 0x0 0x0 0x1c4a2c 0x0
+fixme:iphlpapi:NotifyAddrChange (Handle 0x246f518, overlapped 0x246f520): stub
+fixme:file:MoveFileWithProgressW MOVEFILE_WRITE_THROUGH unimplemented
+fixme:advapi:SetNamedSecurityInfoW L"C:\\windows\\system32\\gecko\\1.0.0\\wine_gecko\\components\\compreg.dat" 1 536870916 0x0 0x0 0x1f2be44 0x0
+wine: configuration in '/Users/Michael/Wine Files' has been updated.
+regedit: File not found "/tmp/coreaudio.reg" (2)
+### LOG ### Command '/Volumes/WineBottler Combo/Wine.app/Contents/Resources/bin/wine regedit /tmp/coreaudio.reg' returned status 1.
+
+
+
+###ERROR### Command '/Volumes/WineBottler Combo/Wine.app/Contents/Resources/bin/wine regedit /tmp/coreaudio.reg' returned status 1.
+Task returned with status 15.

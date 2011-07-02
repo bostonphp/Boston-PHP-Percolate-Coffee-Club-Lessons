@@ -1,0 +1,8 @@
+label, input[type=text], textarea, fieldset {
+    width: 400px;
+    display: block;
+}
+
+.uploadFile {
+    display: none;
+}
