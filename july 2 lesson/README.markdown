@@ -30,4 +30,6 @@ https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/maste
 6. Point your web browser to your htdocs folder like this:
 > http://localhost:8888/lesson3/
 
+**Note**: When copying the files locally, you may want to copy as raw from GitHub. Or you can just copy and paste the text and save it as the appropriate filename.
+
 Enjoy
