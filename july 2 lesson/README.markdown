@@ -25,9 +25,9 @@ This took us roughly 30 minutes as a team, with me explaining in detail each ste
 https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/sql/workout_2011-07-02.sql
 4. Create a folder in your htdocs folder and call it '*lesson3*'
 5. Copy the following PHP scripts into this new folder
-- https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/index.php
-- https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/thankyou.php
+> https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/index.php
+> https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/thankyou.php
 6. Point your web browser to your htdocs folder like this:
-- http://localhost:8888/lesson3/
+> http://localhost:8888/lesson3/
 
 Enjoy
