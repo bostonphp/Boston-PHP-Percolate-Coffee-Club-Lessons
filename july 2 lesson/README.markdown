@@ -4,7 +4,7 @@ The Percolate Coffee Club is a small group of Boston PHP members that come toget
 ## Lesson 3, July 2, 2011 
 In this lesson, we looked at how to design and create a web form and store the results in a database.
 
-![Workout Eval Form](index.png "Mockup")
+![Workout Eval Form](./index.png "Mockup")
 
 ## Here is what we did step by step
 1. Created a PHP page with just plain HTML, Form, and Form Inputs
