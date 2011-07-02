@@ -9,11 +9,12 @@ In this lesson, we looked at how to design and create a web form and store the r
 ![Workout Eval Form](https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/raw/master/july%202%20lesson/index.png "Mockup")
 
 ## Here is what we learned:
-- How to create a database
-- How to create a database table
-- How to create an HTML fragment with fieldset, legend, label, and input
+- How to create a database, tables, and fields
+- How to link database tables together with foreign keys
+- How to create an HTML5 page with fieldset, legend, label, and input
 - How to connect to the database
 - How to extract data from our database
+- Foreach loops, Arrays, Super Globals, Etc
 - How to dynamically show the data from the database
 - How to collect the data collected from the form and store it in MySQL
 - How to redirect the page after the form has been submitted
