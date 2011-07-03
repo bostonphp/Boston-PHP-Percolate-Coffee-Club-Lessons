@@ -46,13 +46,13 @@ In this lesson, we looked at how to design and create a web form and store the r
 1. Make sure you have PHP and MySQL installed and running on your laptop or server
 2. Create a database on your MySQL and call it '*workout*'
 3. Import the the MySQL SQL file provided here
-	1. https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/sql/workout_2011-07-02.sql
+	- https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/sql/workout_2011-07-02.sql
 4. Create a folder in your htdocs folder and call it '*lesson3*'
 5. Copy the following PHP scripts into this new folder
-	1. https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/index.php
-	2. https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/thankyou.php
+	- https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/index.php
+	- https://github.com/bostonphp/Boston-PHP-Percolate-Coffee-Club-Lessons/blob/master/july%202%20lesson/thankyou.php
 6. Point your web browser to your htdocs folder like this:
-	1. http://localhost:8888/lesson3/
+	- http://localhost:8888/lesson3/
 
 **Note**: When copying the files locally, you may want to copy as raw from GitHub. Or you can just copy and paste the text and save it as the appropriate filename.
 
