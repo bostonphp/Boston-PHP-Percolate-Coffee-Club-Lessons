@@ -4,7 +4,7 @@
 #
 # Host: localhost (MySQL 5.5.9)
 # Database: workout
-# Generation Time: 2011-07-02 11:24:32 -0400
+# Generation Time: 2011-07-03 08:07:56 -0400
 # ************************************************************
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -27,7 +27,7 @@ CREATE TABLE `answers` (
   `question_id` int(11) DEFAULT NULL,
   `answer` text,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=latin1;
 
 LOCK TABLES `answers` WRITE;
 /*!40000 ALTER TABLE `answers` DISABLE KEYS */;
@@ -40,7 +40,18 @@ VALUES
 	(5,1,'No'),
 	(6,2,'No'),
 	(7,3,'No'),
-	(8,4,'No');
+	(8,4,'No'),
+	(9,1,'Yes'),
+	(10,2,'No'),
+	(11,3,'Yes'),
+	(12,4,'Yes'),
+	(13,1,'No'),
+	(14,2,'Yes'),
+	(15,3,'No'),
+	(16,3,'Yes'),
+	(17,4,'Yes'),
+	(18,1,'No'),
+	(19,2,'No');
 
 /*!40000 ALTER TABLE `answers` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -61,9 +72,8 @@ LOCK TABLES `categories` WRITE;
 /*!40000 ALTER TABLE `categories` DISABLE KEYS */;
 INSERT INTO `categories` (`id`,`name`)
 VALUES
-	(1,'How was your workout?'),
-	(2,'Did you see any hot girls?'),
-	(3,'Did you ask them out?');
+	(1,'Workout'),
+	(2,'Workout Equipment');
 
 /*!40000 ALTER TABLE `categories` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -85,10 +95,10 @@ LOCK TABLES `questions` WRITE;
 /*!40000 ALTER TABLE `questions` DISABLE KEYS */;
 INSERT INTO `questions` (`id`,`question`,`category_id`)
 VALUES
-	(1,'Did you get hurt?',1),
-	(2,'Do you understand that we are no liable?',1),
-	(3,'Did you get her phone number?',2),
-	(4,'Did you get her address?',2);
+	(1,'Did you use the stairmaster?',2),
+	(2,'Did you use the rowing machine?',2),
+	(3,'Did you enjoy your workout today?',1),
+	(4,'Would you invite a friend to join your workout?',1);
 
 /*!40000 ALTER TABLE `questions` ENABLE KEYS */;
 UNLOCK TABLES;
