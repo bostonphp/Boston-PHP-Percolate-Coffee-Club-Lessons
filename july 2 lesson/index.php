@@ -5,8 +5,16 @@
 
 	// Connect to mysql and connect to the database
 	// Note: You may need to change the user/password for your own database
-	mysql_connect('localhost', 'root', 'root' );
-	mysql_selectdb('workout');
+	$link = mysql_connect('localhost', 'root', 'root' );
+	if( !$link ) {
+		die('Could not connect: ' . mysql_error());
+	}
+
+	// Select the database
+	$db_selected = mysql_select_db('workout');
+	if (!$db_selected) {
+		die ("Cannot connect to database : " . mysql_error());
+	}
 
 	// Did user submit form?
 	if( $_REQUEST['submit'] ) {
@@ -38,7 +46,7 @@
 	// array getQuestions( int question_id );
 	function getQuestions( $category_id ) {
 
-		$sql = "SELECT * FROM questions WHERE category_id ='{$category_id}'";
+		$sql = "SELECT * FROM questions WHERE category_id ='{$category_id}';";
 		$result = mysql_query( $sql );
 		while( $row = mysql_fetch_assoc( $result ) ) {
 			$questions[] = $row;
@@ -56,10 +64,10 @@
 	</head>
 	<body>
 		<h1>Workout Evaluation Form</h1>
-		<form method='POST'>
+		<form method="post">
 		<?php foreach( $categories AS $category ) : ?>
 			<fieldset>
-				<legend><?php echo $category['name'];?></legend>
+				<legend><?php echo $category['name']; ?></legend>
 				<?php $questions = getQuestions( $category['id'] ); ?>
 				<?php foreach( $questions AS $question ) : ?>
 					<p><?php echo $question['question']; ?>
