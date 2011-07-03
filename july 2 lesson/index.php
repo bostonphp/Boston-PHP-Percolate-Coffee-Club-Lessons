@@ -56,8 +56,8 @@
 	</head>
 	<body>
 		<h1>Workout Evaluation Form</h1>
-		<?php foreach( $categories AS $category ) : ?>
 		<form method='POST'>
+		<?php foreach( $categories AS $category ) : ?>
 			<fieldset>
 				<legend><?php echo $category['name'];?></legend>
 				<?php $questions = getQuestions( $category['id'] ); ?>
