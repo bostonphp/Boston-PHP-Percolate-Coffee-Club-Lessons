@@ -1,6 +1,6 @@
 <?php
 
-	// Connect to the database
+	// Connect to the database, use schema.sql to create your database
 	$link = mysql_connect('localhost', 'root', 'root');
 	if (!$link) { // test for error
 	    die('Not connected : ' . mysql_error());
