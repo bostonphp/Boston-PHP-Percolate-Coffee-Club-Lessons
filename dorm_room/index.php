@@ -10,12 +10,8 @@
 	// Check if the user submitted the form
 	if ( $_REQUEST["submit"] ) {
 
-		// Prevent injection attack
-		$name = mysql_real_escape_string( $_REQUEST["name"] );
-		$email = mysql_real_escape_string( $_REQUEST["email"] );
-
 		// Save to database
-		$sql = "INSERT INTO orders SET name='{$name}', email='{$email}', cheese_slices='{$_REQUEST[cheese]}';";
+		$sql = "INSERT INTO orders SET name='{$_REQUEST[name]}', email='{$_REQUEST[email]}', cheese_slices='{$_REQUEST[cheese]}';";
 		$result = mysql_query( $sql );
 		if( mysql_error() ) {
 			die( mysql_error() );
